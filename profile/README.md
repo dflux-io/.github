@@ -23,11 +23,11 @@ The smallest self-operating 5G Standalone core.
 - One-command Docker/K8s deploy
 
 ### FluxGate-Proxy
-Unified signaling proxy — SCP + SSP in one binary.
-- SCP mode for network-wide routing
-- SSP mode for targeted NF protection
-- Built-in Diameter stack for 4G
-- Threat detection, audit & compliance
+5G signaling security proxy (SSP) for NF protection.
+- Targeted NF protection with 5G SBI support
+- Built-in Diameter stack for 4G interworking
+- Threat detection, persistent audit & compliance
+- 10K TPS at 5.6µs latency
 
 ---
 
